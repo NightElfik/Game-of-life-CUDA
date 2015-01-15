@@ -1,0 +1,13 @@
+
+
+*.opensdf
+*.sdf
+*.suo
+*.user
+
+src/ipch
+**/x64
+
+# Windows rubbish
+Thumbs.db
+ehthumbs.db
