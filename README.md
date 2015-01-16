@@ -13,7 +13,8 @@ The best implementation for CPU turned out to be lookup-table approach leading t
 
 **License**: Public domain, see LICENSE.txt for details.
 
-See other readme files for inluded libraries: FreeGlut, Glew, and Google Test.
+See other license files for inluded libraries: FreeGlut, Glew, and Google Test.
+
 
 Features
 --------
@@ -23,7 +24,9 @@ Features
 * Automatic benchmark with export to CSV.
 * Unit tests assuring corectness.
 * Code is well structured and commented.
-* Cool post-process visual effects.
+* OpenGL used as display engine
+  * OpenGL-CUDA interoperability for fast display (no GPU-CPU copy).
+  * Cool post-process visual effects.
 
 
 Compiling and running
